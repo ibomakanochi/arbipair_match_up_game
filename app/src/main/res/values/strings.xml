@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ArbiPair</string>
+    <string name="username_hint">Enter Username</string>
+    <string name="password_hint">Enter Password</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login_signup" >
+
+    <!-- Login Image Logo -->
+    <ImageView
+        android:id="@+id/loginLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="135dp"
+        android:layout_marginTop="-105dp"
+        android:layout_marginBottom="0dp"
+        android:contentDescription="Login Logo"
+        android:src="@drawable/title_arbipair" />
+
+
+    <!-- Username -->
+    <EditText
+        android:id="@+id/usernameEditText"
+        style="@style/EditTextStyle"
+        android:hint="Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp" />
+
+    <!-- Password -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        style="@style/EditTextStyle"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:minHeight="48dp" />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/loginButton"
+        style="@style/GreenButton"
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp" />
+
+    <!-- Sign Up Button -->
+    <Button
+        android:id="@+id/signupButton"
+        style="@style/GreenButton"
+        android:text="No account? Sign up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>
